@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Step 1: Load Dataset
 # Make sure your CSV file name is correct
-data = pd.read_csv("hari.csv")
+data = pd.read_csv("gokul.csv")
 
 # Step 2: Convert Date column to datetime format
 data['Date'] = pd.to_datetime(data['Date'])
